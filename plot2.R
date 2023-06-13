@@ -2,6 +2,7 @@
 env = loadNamespace('momentuHMM')
 child = new.env(parent = env)
 source('plot2.R', local = child)
+
 #Use this to use the enviroment for a model 'm'
 with(child, plot2(m))
 
